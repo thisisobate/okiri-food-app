@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import { Chat } from './components/Chat';
 import reactLogo from './assets/react.svg'
 import './App.css'
 
@@ -25,6 +26,8 @@ function App() {
       <p className="read-the-docs">
         Made with &#9829; by Obate
       </p>
+
+      <Chat />
     </div>
   )
 }
